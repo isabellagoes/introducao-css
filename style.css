@@ -1,16 +1,30 @@
-h1 {
-
+h1, p {
     color:black;
 }
 
 h1 {
-    text-align: center;
+    /* margin: 10px 0 10px 10px; */
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+
+    text-align: left;
 }
 
 p {
     text-align: justify;
+
+    margin-bottom: 5px;
 }
 
+/* Retirar a linha abaixo do link */
 a {
     text-decoration: none;
+}
+
+.paragrafo-diferentao {
+
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode';
+font-size: 18px;
+color: red;
 }
